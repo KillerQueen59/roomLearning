@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#1234">
+    <LinearLayout
+        android:id="@+id/layoutMovie"
+        android:background="#123"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/titleMovie"
+            android:textSize="30sp"
+            tools:text="NAMA FILM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#fff"
+            android:maxLines="4"
+            android:id="@+id/descriptionMovie"
+            android:textSize="20sp"
+            tools:text="Ini deskripisbasjkfadbfjdjkfdaskjf;sdkjfadsfasdfa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>
